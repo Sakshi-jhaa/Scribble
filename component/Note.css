@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat');
+
+.notess{
+    background-color: bisque;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+}
+header {
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.main-content{
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Caveat', cursive;
+    
+}
+.main-content ul li{
+    list-style: none;
+    padding:20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    
+}
+
+footer{
+    background-color:lightcoral;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 200px;
+    text-align: center;
+    width: 360px;
+}
+footer form input,
+footer form textarea{
+    border: none;
+    border: 2px solid;
+    background-color: lightpink;
+    outline: none;
+    color: black;
+    font-size: 14px;
+    display:block;
+    text-align: center;
+    margin: 3px auto;
+    padding: 10px;
+    width:200px auto;
+}
+foot form textarea{
+    height: 100px;
+}
+footer form button{
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: blueviolet;
+    margin-top: 20px; 
+}
